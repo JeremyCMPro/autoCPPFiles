@@ -1,5 +1,5 @@
 # autoCPPFiles
-{Epitech} bash script project made by Jeremy Calosso-merlino that auto generate .hpp/.cpp files with the filename passed as argument
+{Epitech} bash script project made by Jeremy Calosso-merlino that auto generate .hpp/.cpp files with the filename passed as argument<br />
 *this script is hand made. no tools as Chat GPT or something else has been used*
 
 ## Installation
