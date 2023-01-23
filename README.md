@@ -1,5 +1,6 @@
 # autoCPPFiles
 {Epitech} bash script project made by Jeremy Calosso-merlino that auto generate .hpp/.cpp files with the filename passed as argument
+*this script is hand made. no tools as Chat GPT or something else has been used*
 
 ## Installation
 Just download the 'createCPPFiles.sh' and place it to the root of your Disk
