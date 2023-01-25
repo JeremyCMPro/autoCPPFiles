@@ -24,8 +24,8 @@ epitechHeaderHpp="/*
 ** $1
 */
 
-#ifndef $1_HPP_
-    #define $1_HPP_
+#ifndef ${1^^}_HPP_
+    #define ${1^^}_HPP_
 
     class $1 {
         public:
@@ -69,9 +69,16 @@ else
             exit 84;
         fi
         echo "Creating files for '$1'"
-        touch $1.cpp
-        touch $1.hpp
-        echo "$epitechHeaderCpp" > "$1.cpp"
-        echo "$epitechHeaderHpp" > "$1.hpp"
+        if [ ${1:0:1} == 'I' ]
+        then
+            touch $1.hpp
+            echo "$epitechHeaderHpp" > "$1.hpp"
+            exit 0;
+        else
+            touch $1.cpp
+            touch $1.hpp
+            echo "$epitechHeaderCpp" > "$1.cpp"
+            echo "$epitechHeaderHpp" > "$1.hpp"
+        fi
     fi
 fi
