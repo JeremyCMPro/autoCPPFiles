@@ -3,7 +3,7 @@
 *this script is hand made. no tools as Chat GPT or something else has been used*
 
 ## Installation
-Just download the 'createCPPFiles.sh' and place it to the root of your Disk
+Just download the 'createCPPFiles.sh' and place it at root of your Disk
 
 Open your ~/.bashrc in whatever IDE that you want (as nano, emacs, vscode etc...) and add the following alias:<br />
 ```
